@@ -6910,57 +6910,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-.map {
-  background-image: url("../../dist/images/background.jpg"); }
-  .map .nav-wrapper {
-    background-color: #FFFFFF; }
-  .map .infoicon {
-    color: #fec56d;
-    margin-right: 10vh; }
-  .map .brandlogo {
-    width: 30vh;
-    margin-top: 2vh;
-    margin-left: 5vh; }
-  .map .hamburgericon {
-    color: #000000; }
+#signup {
+  padding: 20px;
+  font-family: 'Lato', sans-serif; }
 
-.seleccion {
-  background-color: #FFFFFF;
-  margin-top: 6vh;
-  padding: 3vh; }
-  .seleccion select {
-    border-color: #fec56d;
-    height: 5vh; }
-  .seleccion .title {
-    font-weight: bold; }
+.image {
+  height: 150px;
+  width: auto;
+  margin-top: 50px; }
 
-.vehiculos {
-  background-color: #FFFFFF;
-  margin-top: 3vh;
-  padding: 3vh;
-  display: none; }
-  .vehiculos .title {
-    font-weight: bold;
-    margin: 0%; }
-  .vehiculos .imgvehiculo {
-    width: 60%; }
-  .vehiculos .cartype {
-    margin: 0%;
-    font-weight: bold;
-    font-size: 0.9em;
-    margin-top: 1vh; }
-  .vehiculos .info {
-    font-family: "Hind", sans-serif;
-    margin: 0%;
-    font-size: 0.8em; }
-  .vehiculos .valor {
-    color: #fec56d; }
-  .vehiculos [type=radio]:checked + label, .vehiculos [type=radio]:not(:checked) + label {
-    margin-top: 2vh; }
+.create_account_btn {
+  background-color: #fbd43b;
+  box-shadow: none;
+  border-radius: 5px; }
 
-.btn, .btn-large {
-  background-color: #fec56d;
-  margin-top: 1vh;
-  width: 100%; }
-  .btn:hover, .btn-large:hover {
-    background-color: #000000; }
+.main_text {
+  font-weight: bold;
+  font-size: 30px; }
+
+.fill-text-info {
+  color: #8f8f8f; }
