@@ -1,23 +1,38 @@
-#signup{
-	padding:20px;
-	font-family: 'Lato', sans-serif
-}
-.image{
-	height:150px;
-	width:auto;
-	margin-top:50px;
-}
+.and-pantalla3-seccion{
+	div .and-icono-flecha{
+		margin-top: 8%;
+		font-size:44px;
+		
+	}
 
-.create_account_btn{
-	background-color: $btn_colour;
-	box-shadow:none;
-	border-radius:5px;
-}
+	.and-img-message{
+		display:flex;
+		justify-content: center;
 
-.main_text{
-	font-weight:bold;
-	font-size:30px;
-}
-.fill-text-info{
-	color: $soft_gray;
+		img{
+		height: 90px;
+		}
+	}
+	.and-titulo{
+		font-size: 150%;
+		font-weight: 600;
+	}
+	.and-mensajeGris{
+		padding: 0% 5%;
+		color: $soft-gray;
+	}
+	.and-numero{
+		color: $dark-purple;
+		display: inline-block;
+	}
+	.and-input label {
+		color: $soft-gray;
+		top: 120%;
+
+	}
+	.and-reintentar{
+		color: $soft-gray;
+		display:inline-block;
+
+	}
 }

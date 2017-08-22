@@ -6910,23 +6910,32 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-#signup {
-  padding: 20px;
-  font-family: 'Lato', sans-serif; }
+.and-pantalla3-seccion div .and-icono-flecha {
+  margin-top: 8%;
+  font-size: 44px; }
 
-.image {
-  height: 150px;
-  width: auto;
-  margin-top: 50px; }
+.and-pantalla3-seccion .and-img-message {
+  display: flex;
+  justify-content: center; }
+  .and-pantalla3-seccion .and-img-message img {
+    height: 90px; }
 
-.create_account_btn {
-  background-color: #fbd43b;
-  box-shadow: none;
-  border-radius: 5px; }
+.and-pantalla3-seccion .and-titulo {
+  font-size: 150%;
+  font-weight: 600; }
 
-.main_text {
-  font-weight: bold;
-  font-size: 30px; }
-
-.fill-text-info {
+.and-pantalla3-seccion .and-mensajeGris {
+  padding: 0% 5%;
   color: #8f8f8f; }
+
+.and-pantalla3-seccion .and-numero {
+  color: #38052a;
+  display: inline-block; }
+
+.and-pantalla3-seccion .and-input label {
+  color: #8f8f8f;
+  top: 120%; }
+
+.and-pantalla3-seccion .and-reintentar {
+  color: #8f8f8f;
+  display: inline-block; }
