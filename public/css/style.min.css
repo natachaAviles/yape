@@ -6939,7 +6939,27 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #parrafo {
   margin-top: 10%; }
 
-element.style {
+.style {
   height: 420px; }
 
 /*Pantalla-1*/
+#signup {
+  padding: 20px;
+  font-family: 'Lato', sans-serif; }
+
+.image {
+  height: 150px;
+  width: auto;
+  margin-top: 50px; }
+
+.create_account_btn {
+  background-color: #fbd43b;
+  box-shadow: none;
+  border-radius: 5px; }
+
+.main_text {
+  font-weight: bold;
+  font-size: 30px; }
+
+.fill-text-info {
+  color: #8f8f8f; }

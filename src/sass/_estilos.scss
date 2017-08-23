@@ -1,3 +1,4 @@
+
 /*Pantalla-1*/
 *{
 	margin:0;
@@ -36,3 +37,27 @@
 	height:420px;
 }
 /*Pantalla-1*/
+
+#signup{
+	padding:20px;
+	font-family: 'Lato', sans-serif
+}
+.image{
+	height:150px;
+	width:auto;
+	margin-top:50px;
+}
+
+.create_account_btn{
+	background-color: $btn_colour;
+	box-shadow:none;
+	border-radius:5px;
+}
+
+.main_text{
+	font-weight:bold;
+	font-size:30px;
+}
+.fill-text-info{
+	color: $soft_gray;
+}
