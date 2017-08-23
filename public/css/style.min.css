@@ -6913,6 +6913,35 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .chek {
   margin-top: -10%; }
 
+/*Pantalla-1*/
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fbd43b;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 100px;
+  margin-top: -7%; }
+
+.slider .indicators .indicator-item {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 12px;
+  background-color: red;
+  border-radius: 50%; }
+
+.slider .slides li img {
+  height: 71%;
+  width: 80%; }
+
+#parrafo {
+  margin-top: 10%; }
+
+.style {
+  height: 420px; }
+
+/*Pantalla-1*/
 #signup {
   padding: 20px;
   font-family: 'Lato', sans-serif; }
