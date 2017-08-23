@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .celu{
 	width: 50%;
 	margin-top: 40%;
@@ -6,4 +7,28 @@
 
 .chek{
 	margin-top: -10%;
+=======
+#signup{
+	padding:20px;
+	font-family: 'Lato', sans-serif
+}
+.image{
+	height:150px;
+	width:auto;
+	margin-top:50px;
+}
+
+.create_account_btn{
+	background-color: $btn_colour;
+	box-shadow:none;
+	border-radius:5px;
+}
+
+.main_text{
+	font-weight:bold;
+	font-size:30px;
+}
+.fill-text-info{
+	color: $soft_gray;
+>>>>>>> d96d7aee194a6a4fe3a09de14667a273c92f2aca
 }
