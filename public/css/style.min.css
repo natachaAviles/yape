@@ -6910,14 +6910,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-<<<<<<< HEAD
+/*segunda pagina*/
 .celu {
   width: 50%;
   margin-top: 40%; }
 
 .chek {
-  margin-top: 5%; }
-=======
+  margin-top: -10%; }
+
+/*fin segundo*/
 #signup {
   padding: 20px;
   font-family: 'Lato', sans-serif; }
@@ -6938,4 +6939,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .fill-text-info {
   color: #8f8f8f; }
->>>>>>> d96d7aee194a6a4fe3a09de14667a273c92f2aca
+
+/*sexto*/
+.tiket {
+  width: 50%;
+  margin-top: 40%; }
+
+/*fin sexto*/
