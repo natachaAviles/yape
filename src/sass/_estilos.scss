@@ -1,10 +1,10 @@
+/*-----------INICIO ESTILOS PANTALLA 3-----------------------------*/
+
 .and-pantalla3-seccion{
 	div .and-icono-flecha{
 		margin-top: 8%;
 		font-size:44px;
-		
 	}
-
 	.and-img-message{
 		display:flex;
 		justify-content: center;
@@ -36,9 +36,6 @@
 			display:inline-block;
 			width: 270px;
 		}
-
-
-
 	}
 	.and-reintentar-div{
 		margin-left: 100px;
@@ -47,6 +44,17 @@
 		color: $soft-gray;
 		display:inline-block;
 		font-size: 14px;
+	}
+}
+/*-----------------------FIN  ESTILOS PANTALLA 3-----------------------------*/
 
+.and-pantalla5-seccion{
+	background-color: $btn_colour;
+	height:100%;
+	font-size: 18px;
+	font-weight: bold;
+	.and-img-check{
+		width:90px;
+		margin-top: 200px;
 	}
 }
