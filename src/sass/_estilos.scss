@@ -1,13 +1,38 @@
 /*Pantalla-1*/
+*{
+	margin:0;
+	padding:0;
+}
+
 .btn{
     text-decoration: none;
     color: #fff;
     background-color: #fbd43b;
     text-align: center;
     cursor: pointer;
+    padding: 10px 100px;
+    margin-top: -7%;
 }
 
-#pantalla-1{
-	background-color: red;
+.slider .indicators .indicator-item {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 12px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.slider .slides li img {
+    height: 71%;
+    width: 80%;
+}
+
+#parrafo{
+	margin-top: 10%;
+}
+
+.style{
+	height:420px;
 }
 /*Pantalla-1*/
