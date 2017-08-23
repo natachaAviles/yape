@@ -6942,10 +6942,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: inline-block;
     width: 270px; }
 
+.and-pantalla3-seccion .and-reintentar-div {
+  margin-left: 100px; }
+
 .and-pantalla3-seccion .and-reintentar {
   color: #8f8f8f;
   display: inline-block;
-  font-size: 14px;
-  width: auto; }
-  .and-pantalla3-seccion .and-reintentar .material-icons {
-    display: inline-block; }
+  font-size: 14px; }
