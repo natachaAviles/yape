@@ -6932,10 +6932,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   color: #38052a;
   display: inline-block; }
 
-.and-pantalla3-seccion .and-input label {
+.and-pantalla3-seccion .and-input {
   color: #8f8f8f;
-  top: 120%; }
+  padding-top: 50px;
+  display: inline-block; }
+  .and-pantalla3-seccion .and-input .material-icons {
+    display: inline-block; }
+  .and-pantalla3-seccion .and-input .and-input-code {
+    display: inline-block;
+    width: 270px; }
 
 .and-pantalla3-seccion .and-reintentar {
   color: #8f8f8f;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 14px;
+  width: auto; }
+  .and-pantalla3-seccion .and-reintentar .material-icons {
+    display: inline-block; }

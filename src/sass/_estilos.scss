@@ -25,14 +25,29 @@
 		color: $dark-purple;
 		display: inline-block;
 	}
-	.and-input label {
+	.and-input{
 		color: $soft-gray;
-		top: 120%;
+		padding-top: 50px;
+		display:inline-block;
+		.material-icons{
+			display:inline-block;
+		}
+		.and-input-code{
+			display:inline-block;
+			width: 270px;
+		}
+
+
 
 	}
 	.and-reintentar{
 		color: $soft-gray;
 		display:inline-block;
+		font-size: 14px;
+		width: auto;
+		.material-icons{
+			display: inline-block;
+		}
 
 	}
 }
