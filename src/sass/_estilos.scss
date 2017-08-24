@@ -18,7 +18,7 @@
 	width:100%;
 }
 .carousel .carousel-item > img {
-	width:60%;
+	width: 60%;
 	margin-top:50px;
 }
 .btn{
@@ -130,7 +130,7 @@
 
 /*comienzo pantalla 7*/
 #hola{
-	height: 20vh;
+	height: 17vh;
 	margin-top: 20%;
 }
 
@@ -139,12 +139,23 @@
 	height: 50vh;
 }
 
-#titulo-hola{
-	color: white
+#icono-uno{
+	color: #00c3a3;
+	font-size: 15px;
 }
 
-span{
+#icono-dos{
+	margin-right: -50%;
+}
+
+#titulo-hola{
+	color: white;
+	font-size: 25px;
+}
+
+.mostrar{
 	color: #00c3a3;
+	font-size: 15px;
 }
 
 .material-icons{
@@ -154,14 +165,17 @@ span{
 }
 
 
-
 h6 {
+    font-size: 1rem;
+    line-height: 59%;
+    margin-right: 20%;
+    margin: 1rem;
+    margin-left: -130%;
 	font-size: 1rem;
 	line-height: 59%;
 	margin-right: 20%;
 	margin: 1rem;
 	margin-left: -104%;
-
 }
 
 .material-icons{
@@ -176,7 +190,7 @@ h6 {
 
 #icono-tres{
 	height: 100px;
-	margin-top: 5%;
+	margin-top: 7%;
 }
 
 #parr-ultimo{
@@ -185,13 +199,24 @@ h6 {
 	margin-left: 10
 }
 
-span{
+#parr-ultimo{
 	margin-top: 10%;
 }
 
 #icono-cuatro{
-	
+	height: 60px;
 }
+
+#icono-cinco{
+	height: 60px;
+}
+
+
+.parr-ic{
+	color: white;
+	font-size: 12px;
+}
+
 /* fin pantalla 7*/
 
 .and-pantalla5-seccion{

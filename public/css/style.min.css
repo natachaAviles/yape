@@ -7021,18 +7021,27 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* fin pantalla 1*/
 /*comienzo pantalla 7*/
 #hola {
-  height: 20vh;
+  height: 17vh;
   margin-top: 20%; }
 
 #imagen-icono {
   background-color: #49233b;
   height: 50vh; }
 
-#titulo-hola {
-  color: white; }
+#icono-uno {
+  color: #00c3a3;
+  font-size: 15px; }
 
-span {
-  color: #00c3a3; }
+#icono-dos {
+  margin-right: -50%; }
+
+#titulo-hola {
+  color: white;
+  font-size: 25px; }
+
+.mostrar {
+  color: #00c3a3;
+  font-size: 15px; }
 
 .material-icons {
   color: #00c3a3;
@@ -7044,7 +7053,7 @@ h6 {
   line-height: 59%;
   margin-right: 20%;
   margin: 1rem;
-  margin-left: -104%; }
+  margin-left: -130%; }
 
 .material-icons {
   color: white; }
@@ -7056,15 +7065,25 @@ h6 {
 
 #icono-tres {
   height: 100px;
-  margin-top: 5%; }
+  margin-top: 7%; }
 
 #parr-ultimo {
   color: white;
   margin-top: 5%;
   margin-left: 10; }
 
-span {
+#parr-ultimo {
   margin-top: 10%; }
+
+#icono-cuatro {
+  height: 60px; }
+
+#icono-cinco {
+  height: 60px; }
+
+.parr-ic {
+  color: white;
+  font-size: 12px; }
 
 /* fin pantalla 7*/
 .and-pantalla5-seccion {
