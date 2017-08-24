@@ -40,4 +40,29 @@
 	margin-top: 40%;
 }
 
+.tarjeta{
+	.pas{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-left: 30px;
+		.validate{
+            width: 90%;
+            justify-content: center;
+            
+		}
+		.material-icons{
+			margin: 0;
+		}
+	}
+	.ip{
+		display: flex;
+		justify-content: center;
+		.col{
+			p{
+			margin-top: 10px;
+		}
+		}
+	}
+}
 /*fin sexto*/

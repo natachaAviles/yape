@@ -6945,4 +6945,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 50%;
   margin-top: 40%; }
 
+.tarjeta .pas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px; }
+  .tarjeta .pas .validate {
+    width: 90%;
+    justify-content: center; }
+  .tarjeta .pas .material-icons {
+    margin: 0; }
+
+.tarjeta .ip {
+  display: flex;
+  justify-content: center; }
+  .tarjeta .ip .col p {
+    margin-top: 10px; }
+
 /*fin sexto*/
