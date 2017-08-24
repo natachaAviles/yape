@@ -4,40 +4,33 @@
 }
 
 /*Pantalla-1*/
+.informative-text{
+	color:$soft_gray;
+}
 
-
+.register-btn{
+	width:100%;
+}
+.carousel .carousel-item > img {
+	width:60%;
+	margin-top:50px;
+}
 .btn{
-    text-decoration: none;
-    color: #fff;
-    background-color: #fbd43b;
-    text-align: center;
-    cursor: pointer;
-    padding: 10px 100px;
-    margin-top: -7%;
+	box-shadow:none;
+	border-radius:5px;
+	background-color: $btn_colour;
 }
 
-.slider .indicators .indicator-item {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 12px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-.slider .slides li img {
-    height: 71%;
-    width: 80%;
-}
-
-#parrafo{
-	margin-top: 10%;
-}
-
-.style{
-	height:420px;
+.carousel .indicators .indicator-item{
+	background-color:$bullet_red;
 }
 /*Pantalla-1*/
+
+/* vista dos */
+.bold-informative-text{
+	font-weight:bold;
+}
+/* fin vista dos */
 
 
 #signup{
@@ -58,8 +51,24 @@
 
 .main_text{
 	font-weight:bold;
-	font-size:30px;
+	font-size:26px;
 }
 .fill-text-info{
 	color: $soft_gray;
 }
+
+/* estilos modificados*/
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
+    content: '';
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid rgba(90, 90, 90, 0.59);
+    border-radius: 3px;
+    margin-top: 2px;
+    transition: .2s;
+ }   
