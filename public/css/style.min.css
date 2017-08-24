@@ -6910,7 +6910,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-<<<<<<< HEAD
+/*segunda pagina*/
+.celu {
+  width: 50%;
+  margin-top: 40%; }
+
 .chek {
   margin-top: -10%; }
 
@@ -6939,17 +6943,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-weight: bold; }
 
 /* fin vista dos */
-=======
-/*segunda pagina*/
-.celu {
-  width: 50%;
-  margin-top: 40%; }
-
-.chek {
-  margin-top: -10%; }
-
 /*fin segundo*/
->>>>>>> 322875e25075ab757e00324b630f305963bfacf0
 #signup {
   padding: 20px;
   font-family: 'Lato', sans-serif; }
@@ -7009,7 +7003,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .fill-text-info {
   color: #8f8f8f; }
 
-<<<<<<< HEAD
 /* estilos modificados*/
 [type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
   content: '';
@@ -7084,7 +7077,6 @@ span {
     margin-top: 200px; }
 
 /*-----------------------FIN ESTILOS PANTALLA 5-----------------------------*/
-=======
 /*sexto*/
 .tiket {
   width: 50%;
@@ -7108,4 +7100,3 @@ span {
     margin-top: 10px; }
 
 /*fin sexto*/
->>>>>>> 322875e25075ab757e00324b630f305963bfacf0

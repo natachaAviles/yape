@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 
 gulp.task('script', function(cb){
 	// tarea script
-	gulp.src(['node_modules/jquery/dist/jquery.js','src/js/script.js', 'src/sass/materialize-css/dist/js/materialize.js'])
+	gulp.src(['node_modules/jquery/dist/jquery.js','src/js/script.js', 'src/js/registeruser.js', 'src/sass/materialize-css/dist/js/materialize.js'])
 		// verificar errores de JS
 		.pipe(jshint())
 		.pipe(jshint.reporter('default'))
