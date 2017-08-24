@@ -1,9 +1,14 @@
 
+/*segunda pagina*/
+.celu{
+	width: 50%;
+	margin-top: 40%;
+}
+
 
 .chek{
 	margin-top: -10%;
 }
-
 /*Pantalla-1*/
 .informative-text{
 	color:$soft_gray;
@@ -33,6 +38,7 @@
 }
 /* fin vista dos */
 
+/*fin segundo*/
 
 #signup{
 	padding:20px;
@@ -200,3 +206,35 @@ span{
 }
 /*-----------------------FIN ESTILOS PANTALLA 5-----------------------------*/
 
+/*sexto*/
+.tiket{
+	width: 50%;
+	margin-top: 40%;
+}
+
+.tarjeta{
+	.pas{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-left: 30px;
+		.validate{
+            width: 90%;
+            justify-content: center;
+            
+		}
+		.material-icons{
+			margin: 0;
+		}
+	}
+	.ip{
+		display: flex;
+		justify-content: center;
+		.col{
+			p{
+			margin-top: 10px;
+		}
+		}
+	}
+}
+/*fin sexto*/
