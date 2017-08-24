@@ -6910,39 +6910,46 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+<<<<<<< HEAD
+.chek {
+  margin-top: -10%; }
+
 /*Pantalla-1*/
-* {
-  margin: 0;
-  padding: 0; }
+.informative-text {
+  color: #8f8f8f; }
+
+.register-btn {
+  width: 100%; }
+
+.carousel .carousel-item > img {
+  width: 60%;
+  margin-top: 50px; }
 
 .btn, .btn-large {
-  text-decoration: none;
-  color: #fff;
-  background-color: #fbd43b;
-  text-align: center;
-  cursor: pointer;
-  padding: 10px 100px;
-  margin-top: -7%; }
+  box-shadow: none;
+  border-radius: 5px;
+  background-color: #fbd43b; }
 
-.slider .indicators .indicator-item {
-  cursor: pointer;
-  height: 12px;
-  width: 12px;
-  margin: 0 12px;
-  background-color: red;
-  border-radius: 50%; }
-
-.slider .slides li img {
-  height: 71%;
-  width: 80%; }
-
-#parrafo {
-  margin-top: 10%; }
-
-.style {
-  height: 420px; }
+.carousel .indicators .indicator-item {
+  background-color: #f64552; }
 
 /*Pantalla-1*/
+/* vista dos */
+.bold-informative-text {
+  font-weight: bold; }
+
+/* fin vista dos */
+=======
+/*segunda pagina*/
+.celu {
+  width: 50%;
+  margin-top: 40%; }
+
+.chek {
+  margin-top: -10%; }
+
+/*fin segundo*/
+>>>>>>> 322875e25075ab757e00324b630f305963bfacf0
 #signup {
   padding: 20px;
   font-family: 'Lato', sans-serif; }
@@ -6952,17 +6959,71 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: auto;
   margin-top: 50px; }
 
-.create_account_btn {
-  background-color: #fbd43b;
-  box-shadow: none;
-  border-radius: 5px; }
+/*-----------INICIO ESTILOS PANTALLA 3-----------------------------*/
+.and-pantalla3-seccion div .and-icono-flecha {
+  margin-top: 8%;
+  font-size: 44px; }
 
+.and-pantalla3-seccion .and-img-message {
+  display: flex;
+  justify-content: center; }
+  .and-pantalla3-seccion .and-img-message img {
+    height: 90px; }
+
+.and-pantalla3-seccion .and-titulo {
+  font-size: 150%;
+  font-weight: 600; }
+
+.and-pantalla3-seccion .and-mensajeGris {
+  padding: 0% 5%;
+  color: #8f8f8f; }
+
+.and-pantalla3-seccion .and-numero {
+  color: #38052a;
+  display: inline-block; }
+
+.and-pantalla3-seccion .and-input {
+  color: #8f8f8f;
+  padding-top: 50px;
+  display: inline-block; }
+  .and-pantalla3-seccion .and-input .material-icons {
+    display: inline-block; }
+  .and-pantalla3-seccion .and-input .and-input-code {
+    display: inline-block;
+    width: 270px; }
+
+.and-pantalla3-seccion .and-reintentar-div {
+  margin-left: 100px; }
+
+.and-pantalla3-seccion .and-reintentar {
+  color: #8f8f8f;
+  display: inline-block;
+  font-size: 14px; }
+
+/*-----------------------FIN  ESTILOS PANTALLA 3-----------------------------*/
+/*-----------------------INICIO ESTILOS PANTALLA 5-----------------------------*/
 .main_text {
   font-weight: bold;
-  font-size: 30px; }
+  font-size: 26px; }
 
 .fill-text-info {
   color: #8f8f8f; }
+
+<<<<<<< HEAD
+/* estilos modificados*/
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
+  content: '';
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  z-index: 0;
+  border: 2px solid rgba(90, 90, 90, 0.59);
+  border-radius: 3px;
+  margin-top: 2px;
+  transition: .2s; }
 
 /* fin pantalla 1*/
 /*comienzo pantalla 7*/
@@ -6993,18 +7054,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   color: #00c3a3;
   font-size: 15px;
   margin-right: 3%; }
-
-.btn, .btn-large, .btn-large {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  background-color: #38052a;
-  text-align: center;
-  cursor: pointer;
-  padding: 12px 151px;
-  margin-top: 0%;
-  margin-left: -6%;
-  height: 3%; }
 
 h6 {
   font-size: 1rem;
@@ -7044,3 +7093,38 @@ h6 {
   font-size: 12px; }
 
 /* fin pantalla 7*/
+.and-pantalla5-seccion {
+  background-color: #fbd43b;
+  height: 100%;
+  font-size: 18px;
+  font-weight: bold; }
+  .and-pantalla5-seccion .and-img-check {
+    width: 90px;
+    margin-top: 200px; }
+
+/*-----------------------FIN ESTILOS PANTALLA 5-----------------------------*/
+=======
+/*sexto*/
+.tiket {
+  width: 50%;
+  margin-top: 40%; }
+
+.tarjeta .pas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px; }
+  .tarjeta .pas .validate {
+    width: 90%;
+    justify-content: center; }
+  .tarjeta .pas .material-icons {
+    margin: 0; }
+
+.tarjeta .ip {
+  display: flex;
+  justify-content: center; }
+  .tarjeta .ip .col p {
+    margin-top: 10px; }
+
+/*fin sexto*/
+>>>>>>> 322875e25075ab757e00324b630f305963bfacf0
